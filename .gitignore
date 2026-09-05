@@ -1,0 +1,9 @@
+# Secrets and local Vercel files must never be committed.
+.env
+.env.*
+!.env.example
+.vercel
+
+# Operating-system files
+.DS_Store
+Thumbs.db
